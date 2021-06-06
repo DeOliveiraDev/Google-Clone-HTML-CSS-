@@ -1,0 +1,175 @@
+/* CONFIGURAÇÕES GERAIS */
+html, body, header, ul, li, a, p {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+input[type=text]{
+    outline:none;
+    text-align: none;
+}
+
+/* HEADER */
+header nav ul {
+    display: flex;
+    float: right;
+    align-items: center;
+}
+header nav ul li {
+    margin: -10px 10px;
+    font-size: 13px;
+    ;
+}
+header nav ul li a {
+    color: #383838;
+}
+header nav ul li a img {
+    width: 33px;
+    border-radius: 100%;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .linha {
+    text-align: center;
+    margin: 38px 0px;
+    margin-left: 163px;
+
+}
+.container .linha .logo {
+    padding-top: 132px;
+}
+.container .linha .logo img {
+    width: 272px;
+    padding-bottom: 23px;
+}
+
+.container .linha .barra-pesquisa {
+}
+
+.container .linha .barra-pesquisa .alinhar {
+    border: 1px solid #ccccccbb;
+    text-align: center;
+    display: inline-flex;
+    border-radius: 30px;
+    align-self: center;
+    padding: 10px 13px;
+}
+
+.container .linha .barra-pesquisa .alinhar div {
+    display: inline-flex;
+}
+
+.container .linha .barra-pesquisa div #simbolo-pesquisa {
+    width: 17px;
+
+}
+.container .linha .barra-pesquisa div input {
+    padding: 3px 114px;
+    border: none;
+}
+
+.container .linha .caixinhas {
+    display: inline-flex;
+    margin-top: 26px;
+}
+.container .linha .caixinhas div {
+    border: 1px solid #efefef3f;
+    background-color: #efefef86;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.container .linha .caixinhas div:hover {
+    border: 1px solid #dedede;
+    filter: drop-shadow(1px 1px 1px #efefef3f);
+}
+
+.container .linha .caixinhas div p {
+    font-size: 14px;
+    color: #383838;
+}
+
+.container .linha .texto-simples {
+    margin-bottom: 50%;
+}
+.container .linha .texto-simples p {
+    font-size: 13px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #efefef86;
+    font-size: 14px;
+    color: #555555;
+}
+footer .caixa-esquerda {
+    float: left;
+}
+footer .caixa-esquerda nav {
+    display: flex;
+    padding: 0px 20px;
+}
+footer .caixa-esquerda nav ul {}
+footer .caixa-esquerda nav ul li {
+    display: inline-flex;
+}
+footer .caixa-esquerda nav ul li a {
+    font-size: 14px;
+    color: #555555;
+    padding: 0 10px;
+}
+
+footer .caixa-direita {
+    float: right;
+}
+footer .caixa-direita nav {
+    display: flex;
+    padding: 0px 20px;
+}
+footer .caixa-direita nav ul {}
+footer .caixa-direita nav ul li {
+    display: inline-flex;
+}
+footer .caixa-direita nav ul li a {
+    font-size: 14px;
+    color: #555555;
+    padding: 0 10px;
+}
+
+
+/* EXTRAS */
+
+.divisor {
+    border-bottom: 1px solid #ccccccbb;
+    padding: 0px 22px;
+}
+
+/* MEDIA */
+
+@media only screen and (max-width: 600px) {
+    footer .caixa-esquerda nav ul {
+    text-align: center;
+    line-height: 30px;
+}
+    footer .caixa-direita nav {
+    text-align: center;
+    margin-top: -17px;
+}
+    .container .linha .barra-pesquisa div input {
+    padding: 3px 62px;
+    border: none;
+}
+}
