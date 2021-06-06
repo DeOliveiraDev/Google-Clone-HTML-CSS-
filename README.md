@@ -1,0 +1,1 @@
+Este foi um desafio solicitado no curso de HTML & CSS da B7Web, no qual precisava desenvolver uma página clone do Google, sem se preocupar com pesquisas, apenas a aparência, utilizando as habilidades e conhecimentos adquiridos no curso, incluindo Responsividade.
